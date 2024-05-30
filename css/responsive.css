@@ -1,0 +1,171 @@
+@media only  screen and (max-width:590px) {
+    .top-row{
+        flex-direction: column;
+    }
+    .head-main{
+        padding: 122px 20px 170px 20px;
+    }
+    .head-main h1{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .head-main h3{
+        font-size: 1.125rem;
+        font-weight: 400;
+        padding-top: 16px;
+
+    }
+    .head-main p{
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-top: 16px;
+    }
+    .sing-in{
+        flex-direction: column;
+    }
+    .sing-in input{
+        max-width: 250px;
+    }
+    .sing-in button{
+        margin-top: 1rem;
+    }
+    section .middle{
+        flex-direction: column;   
+    }
+    .middle-left{
+        order: -1;
+        padding: 40px 0px;
+    }
+    .middle-left h2{
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .middle-left p{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .middle-last h2{
+        font-size: 2rem;
+    }
+    .question h2{
+        font-size: 1rem;
+    }
+    .answer span{
+        font-size: 1.125rem;
+    }
+    .footer-link{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-main{
+        text-align: center;
+    }
+}
+
+@media only  screen and (min-width:591px) and (max-width:768px) {
+    .top-row{
+       padding: 10px 20px;
+    }
+    .head-main{
+        padding: 122px 20px 170px 20px;
+    }
+    .head-main h1{
+         text-align: center;
+         font-size: 2rem;
+         font-weight: 700;
+    }
+    .head-main h3{
+        font-size: 1.125rem;
+        font-weight: 400;
+        padding-top: 16px;
+
+    }
+    .head-main p{
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-top: 16px;
+    }
+    .sing-in{
+        flex-direction: column;
+    }
+    .sing-in button{
+        margin-top: 1rem;
+    }
+    section .middle{
+        flex-direction: column;
+    }
+    .middle-left{
+        padding: 40px 0px;
+        order: -1;
+    }
+    .middle-left h2{
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .middle-left p{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .middle-last h2{
+        font-size: 2rem;
+    }
+    .answer span{
+        font-size: 1.125rem;
+    }
+    .footer-link{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-main{
+        text-align: center;
+    }
+}
+
+@media only  screen and (min-width:769px) and (max-width:1024px){
+    .head-main h1{
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    .head-main h3{
+        font-size: 1.125rem;
+        font-weight: 400;
+        padding-top: 16px;
+
+    }
+    .head-main p{
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-top: 16px;
+    }
+    section .middle{
+        flex-direction: column;
+    }
+    .middle-left{
+        padding: 40px 0px;
+        order: -1;
+    }
+    .middle-left h2{
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .middle-left p{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .footer-link p{
+        flex-basis: 45%;
+    }
+}
